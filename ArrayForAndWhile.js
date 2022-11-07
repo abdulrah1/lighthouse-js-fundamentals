@@ -8,3 +8,14 @@ for (let i = 0; i < packingList.length; i++) {
 }
 
 //To Print the list:
+
+
+
+// Iterating an Array using While Loop:
+
+console.log("Kitchen stuff to pack:");
+let i = 0;
+while (i < packingList.length) {
+  console.log(packingList[i]);
+  i++;
+}
