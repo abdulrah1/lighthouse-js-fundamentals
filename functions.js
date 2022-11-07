@@ -18,6 +18,27 @@ sayHello('ALL HATE')
 
 */
 
-// Using function to determine whether a number is EVEN.
+// Return & Console.log in Function
+
+const sayHelloConsole = function (name) {
+  console.log("Hello " + name)
+}
+
+sayHelloConsole ("afgunz"); 
+
+// Function + Console.log >>> output "Hello afgunz" to the console.
+
+const sayHelloReturn = function (name) {
+  return "Hello " + name;
+}
+
+const greeting = sayHelloReturn ('John');
+
+console.log(greeting);
+
+// Function + Return + Variable >>>> returns the string "Hello John" to a variable without an output !!! Must input the Variable into console.log to provide the output.
+
+
+
 
 
